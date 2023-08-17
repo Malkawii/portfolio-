@@ -1,0 +1,390 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Kareem Malkawi</title>
+        <meta name="description" content="Web Developer Portfolio">
+        <meta name="keywords" content="html css javascript web developer Kareem">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&family=Raleway:wght@600&family=Raleway:wght@800&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&Montserrat:wght@200&Montserrat:wght@300&Montserrat:wght@400&Montserrat:wght@500&Montserrat:wght@600&Montserrat:wght@700&Montserrat:wght@800&Montserrat:wght@900&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Carter+One:wght@400&display=swap" rel="stylesheet"> 
+       
+        <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32"> 
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <link rel="stylesheet" href="css/flickity.css">
+
+
+        <script type="text/javascript" src="scripts/script.js" defer></script>
+        <script type="text/javascript" src="scripts/flickity.pkgd.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+        <meta name="color-scheme" content="light dark" />
+        
+        
+    </head>
+
+    <body class="light">
+
+
+        <!-- WEBSITE BACKGROUND -->
+
+        <div class="background"></div>
+        <div class="background background2"></div>
+        <div class="background background3"></div>
+        <div class="noise"></div>
+        <div class="dust" id="particles-js"></div>
+        
+        <!-- NAVIGATION BAR -->
+
+        <nav class="navMenu desktop">
+            <div id="logo">
+                <a href="#">
+                    <span class="logo-text"> Kareem 
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="#projects" id="menu-projects">Projects</a>
+                <a href="#about" id="menu-about">About</a>                     
+                <div class="theme">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="dark-icon">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <label class="theme-switch" for="theme-toggle">
+                        <input type="checkbox" id="theme-toggle"/>
+                        <div class="slider round"></div>
+                    </label>
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="light-icon">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><i class="fas fa-globe-africa"></i> English</button>
+                    <div class="dropdown-content">
+                        <div class="language lang-current"><div class="lang-en">EN</div>English</div>
+                        
+                    </div>
+            </div>          
+        </nav>
+
+        <nav class="navMenu mobile">
+            <div id="logo-mobile">
+                <a href="#">
+                    <span class="logo"><&#47<span class="between">Kareem</span>></span>
+                    <span class="logo-text"> Kareem
+                </a>
+            </div>
+            <input type="checkbox" class="menu-toggle">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <a href="#projects" id="menu-projects">Projects</a>
+                <a href="#about" id="menu-about">About</a>
+                <a href="#contact" id="menu-contact">Contact</a>                       
+                <div class="separator"></div>
+                <div class="theme">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="dark-icon">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <label class="theme-switch" for="theme-toggle-mobile">
+                        <input type="checkbox" id="theme-toggle-mobile"/>
+                        <div class="slider round"></div>
+                    </label>
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="light-icon">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </div>
+                <div class="language lang-current"><div class="lang-b">EN</div>English</div>
+                       
+            </div>
+
+
+            
+        </nav>
+
+        <!-- PAGE CONTENT -->
+
+        <main>
+
+            <!-- GREETING PAGE -->
+
+            <div class="greeting" id="title">
+                <div class="title">
+                    <h1 class="first-name">Kareem<h1>  
+                </div>
+                <div class="title-social">
+                    </a>
+                </div>
+                <div class="short-info">
+                    <p><i class="far fa-check-circle"></i>Full stack <strong>Web Developer</strong></p>
+                    <p><i class="far fa-check-circle"></i>Experienced <strong>Javascript</strong> Programmer</p>
+                    <p><i class="far fa-check-circle"></i>High <strong>School</strong> Student</p>
+                </div>
+            </div>
+
+            <!-- Experince banner -->
+
+            <div class="banner">
+                <div class="fixed">
+                <div class="banner-top">
+                    <p>Experienced with:</p>
+                </div>
+                <div class="banner-content">
+
+                    <div class="banner-logo">
+                        <img src="images\banner\Python-5.svg">
+                        <p>Python</p>
+                    </div>
+
+                    <div class="banner-logo">
+                        <img src="images\banner\c-1.svg">
+                        <p>C</p>
+                    </div>
+
+                    
+                    <div class="banner-logo">
+                        <img src="images\banner\html-1.svg">
+                        <p>HTML5</p>
+                    </div>
+                    <div class="banner-logo">
+                        <img src="images\banner\css-3.svg">
+                        <p>CSS3</p>
+                    </div>
+                    <div class="banner-logo">
+                        <img src="images\banner\logo-javascript.svg">
+                        <p>JavaScript</p>
+                    </div>
+                    
+                   
+                    <div class="banner-logo">
+                        <img src="images\banner\visual-studio-code-1.svg">
+                        <p>Visual Studio Code</p>
+                    </div>
+
+                    
+            
+                </div>
+                <div class="banner-bottom">
+                    <p>And keen to learn much more</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="placeholder">
+                
+            </div>
+
+            <!-- PROJECTS PAGE -->
+            
+            
+
+
+
+
+                    </div>
+
+            
+                </div>
+            </div>
+
+
+            <div class="full-width bg-projects" class="reveal">
+                <div id="projects">
+                    
+                    <h1 class="section">Projects</h1>
+                    
+                    <div class="full-width bg-projects" class="reveal">
+                        <div id="projects">
+                            
+                            
+                                              
+                            <div class="gallery">
+                                <div class="card">
+                                    <a href="https://malkawii.github.io/Currency-converter/" target="_blank">
+                                        <div class="overlay">
+                                            <p><i class="fas fa-play-circle" alt=""></i></p>
+                                        </div>
+                                        <div class="card-img">
+                                            <img src="projects/currency_converter.png" alt="" class="">
+                                        </div>
+                                        
+                                    </a>
+                                    <div class="card-text">
+                                        <h2 class="card-title">Currency converter</h2>
+                                        <p class="card-description">Quickly and simply convert curriencies with a live exchange rate.</p>
+                                    </div>
+                                    <div class="card-links">
+                                        <p class="card-demo"><a href="https://malkawii.github.io/Currency-converter/" target="_blank"><i class="fas fa-play-circle"></i>Try it</a></p>
+                                        <p class="card-github"><a href="https://github.com/Malkawii/Currency-converter" target="_blank"><i class="fab fa-github"></i>Code on GitHub</a></p>
+                                    </div>
+                                    <div class="card-tags">
+                                        <div class="tag html">HTML</div>
+                                        <div class="tag css">CSS</div>
+                                        <div class="tag js">JavaScript</div>
+        
+                                    </div>
+                                </div>
+        
+                                <div class="card">
+                                    <a href="https://malkawii.github.io/To-do-list/" target="_blank">
+                                        <div class="overlay">
+                                            <p><i class="fas fa-play-circle" alt=""></i></p>
+                                        </div>
+                                        <div class="card-img">
+                                            <img src="projects/To-do.png" alt="" class="">
+                                        </div>
+                                        
+                                    </a>
+                                    <div class="card-text">
+                                        <h2 class="card-title">To-do-list</h2>
+                                        <p class="card-description">Simple to do list where you can type the easily forgettable things! It also has custom changable themes.</p>
+                                    </div>
+                                    <div class="card-links">
+                                        <p class="card-demo"><a href="https://malkawii.github.io/To-do-list/" target="_blank"><i class="fas fa-play-circle"></i>Try it</a></p>
+                                        <p class="card-github"><a href="https://github.com/Malkawii/To-do-list" target="_blank"><i class="fab fa-github"></i>Code on GitHub</a></p>
+                                    </div>
+                                    <div class="card-tags">
+                                        <div class="tag">HTML</div>
+                                        <div class="tag">CSS</div>
+                                        <div class="tag">JavaScript</div>
+        
+                                    </div>
+                                </div>
+        
+                                <div class="card">
+                                    <a href="https://malkawii.github.io/Quiz-game/" target="_blank">
+                                        <div class="overlay">
+                                            <p><i class="fas fa-play-circle" alt=""></i></p>
+                                        </div>
+                                        <div class="card-img">
+                                            <img src="projects/Quiz.jpg" alt="" class="">
+                                        </div>
+                                        
+                                    </a>
+                                    <div class="card-text">
+                                        <h2 class="card-title">Fun-Quiz</h2>
+                                        <p class="card-description">Test your knowledge on different subjects! You can choose the number of topics and what genre.</p>
+                                    </div>
+                                    <div class="card-links">
+                                        <p class="card-demo"><a href="https://malkawii.github.io/Quiz-game/" target="_blank"><i class="fas fa-play-circle"></i>Try it</a></p>
+                                        <p class="card-github"><a href="https://github.com/Malkawii/Quiz-game" target="_blank"><i class="fab fa-github"></i>Code on GitHub</a></p>
+                                    </div>
+                                    <div class="card-tags">
+                                        <div class="tag">HTML</div>
+                                        <div class="tag">CSS</div>
+                                        <div class="tag">JavaScript</div>
+        
+                                    </div>
+                                </div>
+
+
+            <!-- ABOUT PAGE -->
+            
+            <div class="full-width bg-about">
+                
+                <div id="about" class="reveal">
+                    <h1 class="section">About</h1>
+                    <div class="about">
+                        <div class="about-face">
+                            <div>
+                                                            </div>
+                        </div>
+                        <div class="triangle-left"></div>
+                        <div class="about-text">
+                            <div class="name">
+                                <p class="about-bold">
+                                    Hello! My name is:
+                                </p>
+                                <p class="about-bold">
+                                    <h1 class="first-name">Kareem<h1>  
+
+                                </p>
+                            </div>
+                            <div class="social-links">
+                                <div>
+                                    
+                                        
+                                    </a>
+                                </div>
+                                <div>
+                                    
+                                    </a>
+                                </div>
+                            </div>
+                            <p>I am a 16 year old guy who is very passionate about <strong>coding</strong> I have always loved computers and programming since I was a child. <strong>Web dev</strong> Is mainly my expertise and I have created multiple projects. I have learned programming through the Harvard "CS50" course, but I have branched into web dev through "The Odin project", really great website to learn HTML,css, and JS.
+                           
+                          
+                            
+
+                            
+
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+           
+        </main>
+
+
+
+    </body>
+
+</html>
